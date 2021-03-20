@@ -1,0 +1,7 @@
+{% import 'macros.html' as macros %}
+
+<ul>
+{% for i in array %}
+    {{ macros.print_elem(i) }}
+{% endfor %}
+</ul>
